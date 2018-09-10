@@ -1,0 +1,93 @@
+    1  ssh kvm@castkvm
+    2  touch samplefile
+    3  ls -l
+    4  echo "hi" > samplefile
+    5  ls -l
+    6  touch song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3\
+    7  touch song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+    8  ls
+    9  touch snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg
+   10  ls
+   11  touch file1.avi file2.avi file3.avi file4.avi file5.avi file6.avi
+   12  ls
+   13  clear
+   14  mkdir Music
+   15  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3 Music/
+   16  cd Music/
+   17  ls
+   18  cd ./..
+   19  mkdir Picturea
+   20  arm/r Picturea/
+   21  r/r Picturea/
+   22  rm Picturea/
+   23  rmdir Picturea/
+   24  cd
+   25  mkdir Pictures/
+   26  mkdir Videos/
+   27  mv file1.avi file2.avi file3.avi file4.avi file5.avi file6.avi Videos/
+   28  mv snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg Pictures/
+   29  ls
+   30  cd Pictures/
+   31  ls
+   32  cd ./../Videos/
+   33  ls
+   34  cd ./..
+   35  ls -l
+   36  mkdir friendly family work
+   37  ls -l
+   38  clear
+   39  cd /firends
+   40  cd /friends
+   41  ls
+   42  rmdir friendly
+   43  ls
+   44  mkdir friends
+   45  ls
+   46  cd /friends
+   47  cd family
+   48  ./../friends
+   49  ./..
+   50  .//.
+   51  clear
+   52  cd ./..
+   53  cd friends/
+   54  cp -/Music/song3.mp3 -/Music/song2.mp3 -/Pictures
+   55  cp ./Music/song3.mp3 ./Music/song2.mp3 ./Pictures
+   56  cp ./Music/song3.mp3 ./Music/song2.mp3 ./../Pictures
+   57  cp ./../Music/song3.mp3 ./../Music/song2.mp3 ./../Pictures
+   58  ls -l ../Pictures/
+   59  mv ../Pictures/song2.mp3 ../Pictures/song3.mp3 ../Music/
+   60  ls -l ../Music/
+   61  ls -l ../Pictures/
+   62  clear
+   63  cp ../Music/song1.mp3 ../Music/song2.mp3 ../Pictures/snap1.jpg ../Pictures/snap2.jpg ../Videos/file1.avi ../Videos/file2.avi .
+   64  ls
+   65  cd ../Family/
+   66  ../family/
+   67  cd ../family/
+   68  cp ../Music/song3.mp3 ../Music/song4.mp3 ../Pictures/snap2.jpg ../Pictures/snap4.jpg ../Videos/file3.avi ../Videos/file4.avi .
+   69  ls
+   70  cd ../work/
+   71  cp ../Music/song5.mp3 ../Music/song6.mp3 ../Pictures/snap5.jpg ../Pictures/snap6.jpg ../Videos/file5.avi ../Videos/file6.avi .
+   72  ls
+   73  ls -1
+   74  ls ls ls ls
+   75  ls
+   76  ls; ls; ls;
+   77  clear
+   78  cd ../
+   79  rmdir family/ friends/
+   80  rm -r family/ friends/
+   81  ls -l
+   82  cd work/
+   83  rm song5.mp3 song6.mp3 snap5.jpg snap6.jpg file5.avi file6
+   84  rm song5.mp3 song6.mp3 snap5.jpg snap6.jpg file5.avi file6.avi
+   85  LS -L
+   86  ls -l
+   87  ls
+   88  rmdir work
+   89  cd
+   90  ls -l
+   91  rmdir work/
+   92  ls -l
+   93  history
